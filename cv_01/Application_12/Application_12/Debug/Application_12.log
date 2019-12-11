@@ -1,0 +1,9 @@
+﻿  pch.cpp
+  Application_12.cpp
+c:\users\tompr\documents\github\vspj_ppt\cv_01\application_12\application_12\application_12.cpp(14): warning C4101: o2: neodkazovaná lokální proměnná
+c:\users\tompr\documents\github\vspj_ppt\cv_01\application_12\application_12\application_12.cpp(14): warning C4101: S2: neodkazovaná lokální proměnná
+  Fce_Obdelnik.cpp
+  InOut_Obdelnik.cpp
+  Tool_Obdelnik.cpp
+  Generování kódu...
+  Application_12.vcxproj -> C:\Users\tompr\Documents\GitHub\VSPJ_PPT\cv_01\Application_12\Debug\Application_12.exe
