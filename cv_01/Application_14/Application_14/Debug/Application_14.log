@@ -1,0 +1,4 @@
+﻿  Fce_Obdelnik.cpp
+c:\users\tompr\desktop\ppt_materialy\application_14\application_14\fce_obdelnik.cpp(8): warning C4101: S: neodkazovaná lokální proměnná
+c:\users\tompr\desktop\ppt_materialy\application_14\application_14\fce_obdelnik.cpp(8): warning C4101: o: neodkazovaná lokální proměnná
+  Application_14.vcxproj -> C:\Users\tompr\Desktop\PPT_materialy\Application_14\Debug\Application_14.exe
