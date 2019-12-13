@@ -3,6 +3,6 @@ APP14
 2) pridani #include "Tool_Obdelnik.h" v Application_14.cpp
 3) pridani funkce obdelnik(); do main() v Application_14.cpp
 4) pridani #include "InOut_Obdelnik.h" v Tool_Obdelnik.cpp
-5) presun hlavicek a definic funkci pro vstup a vystup z Fce_Obdelnik.h a Fce_Obdelnik.cpp do InOut_Obdelnik.h a InOut_Obdelnik.cpp
+5) presun deklaraci a definic funkci pro vstup a vystup z Fce_Obdelnik.h a Fce_Obdelnik.cpp do InOut_Obdelnik.h a InOut_Obdelnik.cpp
 6) pridani #include "Fce_Obdelnik.h" v InOut_Obdelnik.cpp
 7) #include <iostream> v InOut_Obdelnik.cpp
