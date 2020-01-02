@@ -1,0 +1,13 @@
+2)
+ii)
+Třída reprezentující slovník Map (HashMap) metodu .Add() nemá.
+Třída reprezentující slovník = Map
+Metody: 
+.put() - vložení prvku do mapy, 
+.get() - ziskání prvku z mapy, 
+.remove() - odstranění prvku z mapy, 
+.clear() - vymazání všech prvků z mapy, 
+.size() - zjištění velikosti mapy, 
+.isEmpty() - zjištění prázdnosti
+.containsKey() - zjistí, zda datová struktura obsahuje daný klíč 
+.containsValue() - - zjistí, zda datová struktura obsahuje danou hodnotu 
