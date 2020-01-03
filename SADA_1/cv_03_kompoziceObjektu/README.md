@@ -1,4 +1,4 @@
-##Objects Composrion
+#Objects Comparison
 
 Benefit of using composition in java is that we can control the visibility of other object to client classes and reuse only what we need.
 
