@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cv_03_kompoziceObjektu" />
+        <module name="cv_04_kompozice_objektu" />
       </profile>
     </annotationProcessing>
   </component>
