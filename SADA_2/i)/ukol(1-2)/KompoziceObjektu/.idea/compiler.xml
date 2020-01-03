@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cv_03_kompozice_objektu" />
+        <module name="cv_03_kompoziceObjektu" />
+        <module name="cv_04_kompozice_objektu" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

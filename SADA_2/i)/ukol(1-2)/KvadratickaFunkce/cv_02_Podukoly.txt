@@ -1,0 +1,11 @@
+Bezparametrický konstruktor - opodstatnění
+Umožňuje nastavit výchozí hodnoty členských proměnných na implicitní hodnoty, které pak lze později změnit.
+
+Jednorozměrné pole
+Poskytuje možnost vrátit pouze hodnotu fx.
+
+Vícerozměrné pole
+Obtížněji rozšiřitelné v případě nutnosti přidání dalších vracených hodnot (než pokud bychom vraceli objekt)
+
+Objekt
+Výhody objektu jako návratové hodnoty je ve snadnějším vrácení vice hodnot najednou, které se snadněji přidají k vracenému objektu a lépe se také s hodnotou objektu pracuje, než v případě složitějšího předávání vícerozměrných polí metodou 
