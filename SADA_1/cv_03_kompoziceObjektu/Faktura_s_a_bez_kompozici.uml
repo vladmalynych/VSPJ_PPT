@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Faktura_s_kompozici</OriginalElement>
+  <nodes>
+    <node x="438.0" y="0.0">Faktura_bez_kompozici</node>
+    <node x="187.0" y="190.0">CastkaDokladu</node>
+    <node x="206.5" y="0.0">Sazba</node>
+    <node x="44.375" y="402.0">Faktura_s_kompozici</node>
+    <node x="0.0" y="146.0">Prijemce</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="CastkaDokladu" target="Sazba">
+      <point x="51.5" y="-59.0" />
+      <point x="341.5" y="121.0" />
+      <point x="331.75" y="121.0" />
+      <point x="41.75" y="48.0" />
+    </edge>
+    <edge source="Faktura_s_kompozici" target="CastkaDokladu">
+      <point x="34.375" y="-81.0" />
+      <point x="216.25" y="377.0" />
+      <point x="238.5" y="377.0" />
+      <point x="-51.5" y="59.0" />
+    </edge>
+    <edge source="Faktura_s_kompozici" target="Prijemce">
+      <point x="-34.375" y="-81.0" />
+      <point x="147.5" y="377.0" />
+      <point x="125.25" y="377.0" />
+      <point x="41.75" y="103.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="356.5" y="282.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
