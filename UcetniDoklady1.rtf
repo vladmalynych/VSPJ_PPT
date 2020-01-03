@@ -1,0 +1,89 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2511
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 Jak\'e9 jsou mo\'9enosti vytvo\uc0\u345 en\'ed dokladu? Popi\'9ate \'96 situace, podm\'ednky, data.\
+\
+Data : Aby sme mohli vytvorit novy doklad, musime mat : \
+\
+Doklad , na zaklade ktoreho vytvorime novy doklad (vlastne nakopirujeme udaje z dokladu, ktory\
+davame ako parameter konstruktora. Konstruktor berie ako parameter iny Doklad) \
+-> public Doklad(Doklad d)\
+\
+Alebo \
+\
+cislo dokladu, datum vystavenia, cenu bez DPH a sadzbu DPH\
+-> public Doklad(string cisloDokladu, DateTime datum_Vystaveni, Decimal cenaBezDPH, int sazbaDPH)\
+\
+Alebo\
+\
+cislo dokladu, datum vystavenia, cenu bez DPH\
+-> public Doklad(string cisloDokladu, DateTime datum_Vystaveni, Decimal cenaBezDPH)\
+\
+Situace:\
+\
+Po spusteni programu sa vytvori prazdny List, do ktoreho sa v buducnosti budu vkladat polozky typu Doklad.\
+Nevsimol som si ale, ze by program umoznoval priamo v GUI vytvarat nove doklady. Umoznuje len vybrat z laveho menu uz\
+inym sposobom importovane Doklady.\
+\
+Jak\'fd je v\'fdznam property (datov\'e9 polo\'9eky) Calc v Dokladu?\
+\
+Je to bool , a oznacuje nam , ci je doklad vykalkulovany alebo nie je. Ak chcem doklad zauctovat, musi byt vykalkulovany,\
+teda property "Calc" musi byt True.\
+\
+Jak\'e9 je automatick\'e9 nastaven\'ed datumu splatnosti dokladu?\
+\
+Datum splatnosti je automaticky nastaveny na datum vystaveni -> Datum_Splanosti = Datum_Vystaveni;\
+\
+P\uc0\u345 edpokl\'e1dejme, \'9ee property Zauctoval ve t\u345 \'edd\u283  Zauctuj ud\'e1v\'e1 jm\'e9no osoby, kter\'e1 provedla za\'fa\u269 tov\'e1n\'ed dan\'e9ho dokladu. \
+Jak\'e9 je nebezpe\uc0\u269 n\'ed takov\'e9ho deklarace z hlediska objektov\'e9ho n\'e1vrhu? \
+Obdobn\uc0\u283  pro DokladZauct, kter\'fd ud\'e1v\'e1 za\'fa\u269 tovan\'fd doklad.\
+\
+Properties by nemali byt public. Na manipulaciu s properties jednotlivych tried by mali byt implementovane getters \
+and setters. \
+Riziko je v tom, ze napr. v nasom pripade by mohla uplne ina cast programu zmenit meno osoby, ktora spravila\
+zauctovanie programu, alebo inym sposobom napadnut nas program.\
+\
+Jak\'e9 jsou d\uc0\u367 sledky nastaven\'ed hodnoty property Zaokr na dokladu?\
+\
+Iba ak doklad nie je zauctovany, teda if (Zauct == false), tak sa nastavi pozadovana hodnota a zaroven sa Zauct zmeni\
+na True. Ak je Zauct rovne False, tak sa nic neudeje.\
+\
+Popi\'9ate proces za\'fa\uc0\u269 tov\'e1n\'ed dokladu? Podm\'ednky, se stane, atd.\
+\
+Zauctovanie zabezpecuje metoda public Decimal Zauctuj(), ktora na zaciatku checkuje niekolko veci, a to : \
+\
+- Ak Datum Splatnosti dokladu je mensi alebo rovny Datumu Vystavenia Dokladu, tak sa zauctovanie nevykona a program vypise : \
+"Na dokladu je chybn\'fd datum splanosti. Datum splanosti nesm\'ed b\'fdt d\uc0\u345 \'edve ne\'9e datum vystaven\'ed dokladu."\
+\
+- Ak doklad nie je vykalkulovany, teda property dokladu Calc sa rovna False, tak sa zauctovanie nevykona a program vypise : \
+"Doklad nen\'ed vykalkulov\'e1n."\
+\
+- Ak je SazbaDPH vacsia ako 0 a zaroven je rok vystavenia dokladu mensi alebo rovny ako 2010 , tak sa do property \
+zauctovaneho dokladu CenaSDPH ulozi hodnota Ceny s DPH zaokruhlenej na cele cislo, a do property zauctovaneho\
+dokladu Zaokr sa ulozi o kolko sa cena zaokruhlila, a ci sa zaokruhlila smerom nadol/nahor (podla toho, ci sa tam \
+bude nachadzat zaporne/kladne cislo)\
+\
+- Ak je SazbaDPH vacsia ako  0 a zaroven Rok vystavenia je vacsi ako 2010 a zaroven mensi alebo rovny ako 2014, tak \
+sa do CenaSDPH ulozi hodnota Ceny s DPH zaokruhlenej na najblizsie cele cislo smerom nahor, a do property Zaokr sa \
+ulozi 0 alebo zaporna hodnota , ktora bude hovorit o tom, o kolko sa cena zaokruhlila smerom nahor.\
+\
+- Ak je SazbaDPH vacsia ako 0 a zaroven rok vystavenia je vacsi ako 2014, tak sa vykona to iste, co v pripade , ak je\
+rok vacsi ako 2010 a zaroven mensi alebo rovny ako 2014\
+\
+Ak je SazbaDPH mensia alebo rovna nule, tak sa do property Zaokr ulozi hodnota 0.0\
+\
+Metoda vrati CenuSDPH daneho zauctovaneho dokladu.\
+\
+\
+\
+\
+\
+\
+ \
+\
+\
+}
