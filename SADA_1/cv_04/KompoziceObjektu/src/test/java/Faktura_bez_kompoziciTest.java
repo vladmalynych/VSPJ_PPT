@@ -5,11 +5,20 @@ import java.time.LocalDateTime;
 public class Faktura_bez_kompoziciTest extends TestCase {
 
     public void testToString() {
-        Prijemce prijemce = new Prijemce("Name", "Surname", "Street", "City", "PSC", "111", "email");
-        Sazba sazba = new Sazba("czk",5000);
-        CastkaDokladu castka_dokladu = new CastkaDokladu(3000,3450, sazba);
-        Faktura_s_kompozici faktura = new Faktura_s_kompozici("123", LocalDateTime.now(), LocalDateTime.now(), prijemce, castka_dokladu);
+        Faktura_bez_kompozici faktura = new Faktura_bez_kompozici("123",
+                LocalDateTime.of(2020,01,01,01,01),
+                LocalDateTime.of(2020,01,01,01,01),
+                "Name", "Surname", "Street", "City",
+                "PSC", "111", "email",
+                3000, 3450,
+                "czk",5000);
 
-        System.out.println(faktura.toString());
+        String expected = "Faktura_bez_kompozici{cislo_dokladu='123', datum_vystaveni=2020-01-01T01:01," +
+                " datum_splatnosti=2020-01-01T01:01, prijemce_jmeno='Name', prijemce_prijmeni='Surname'," +
+                " prijemce_ulice='Street', prijemce_mesto='City', prijemce_psc='PSC', prijemce_telefon='111', " +
+                "prijemce_email='email', doklad_cena_bez_dph=3000.0, doklad_cena_s_dph=3450.0," +
+                " doklad_sazba_zkratka='czk', docker_sazba_hodnota=5000.0}";
+
+        assertEquals(expected, faktura.toString());
     }
 }

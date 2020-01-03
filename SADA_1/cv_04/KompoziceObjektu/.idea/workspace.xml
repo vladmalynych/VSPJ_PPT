@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="695d11d9-e0d8-4507-9310-39d643d53c31" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../cv_02_KvadratickaFunkce/KvadratickaFunkce/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../cv_02_KvadratickaFunkce/KvadratickaFunkce/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -85,6 +85,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1387057997">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="114" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="114" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -133,11 +151,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="345">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CastkaDokladuTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="60">
+              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -157,8 +175,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Faktura_s_kompoziciTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -172,11 +193,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SazbaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -184,8 +205,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="11" selection-end-column="47" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -201,16 +222,16 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/Faktura_s_kompoziciTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PrijemceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CastkaDokladuTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/SazbaTest.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/test/java/Faktura_s_kompoziciTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java" />
       </list>
     </option>
@@ -238,65 +259,62 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Faktura_s_kompozici.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="cv_03_kompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cv_03_kompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KompoziceObjektu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KompoziceObjektu" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578065443923" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578066459080" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -332,10 +350,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.Faktura_bez_kompoziciTest.testToString">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="cv_03_kompoziceObjektu" />
+      <module name="cv_03_kompozice_objektu" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Faktura_bez_kompoziciTest.testToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cv_03_kompozice_objektu" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Faktura_bez_kompoziciTest" />
+      <option name="METHOD_NAME" value="testToString" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -387,8 +415,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.Faktura_bez_kompoziciTest.testToString" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Faktura_bez_kompoziciTest.testToString" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -402,17 +435,41 @@
       <updated>1578062865059</updated>
       <workItem from="1578062868387" duration="1315000" />
       <workItem from="1578065000476" duration="443000" />
+      <workItem from="1578065706116" duration="751000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 38m 18s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 39m 32s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 41m 03s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 41m 46s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 46m 03s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 46m 54s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Faktura_bez_kompoziciTest_testToString - 2020.01.03 at 16h 47m 28s.xml">
+      <configuration name="Faktura_bez_kompoziciTest.testToString" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1758000" />
+    <option name="totallyTimeSpent" value="2509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -421,7 +478,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15180723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33493975" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -574,17 +631,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CastkaDokladuTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Faktura_s_kompoziciTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+        <state relative-caret-position="315">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -595,27 +665,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CastkaDokladuTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SazbaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="11" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Faktura_bez_kompoziciTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
